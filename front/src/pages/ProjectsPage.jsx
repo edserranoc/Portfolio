@@ -88,6 +88,34 @@ const projects = [
     featured: true,
     paper: "https://drops.dagstuhl.de/entities/document/10.4230/LIPIcs.IPEC.2024.31"
   }, 
+  {
+    id: 3,
+    name: "Real-Time Multi-Object Tracking (MOT) for Traffic Analytics",
+    description: "An end-to-end computer vision pipeline for real-time vehicle detection, persistent multi-object tracking, and automated traffic flow analytics. Utilizes YOLOv8 for detection, ByteTrack for low-score detection association during occlusions, and OpenCV to calculate vehicle speed, lane crossing counts, and movement trajectories.",
+    image: "",
+    tags: [
+    "Computer Vision",
+    "Multi-Object Tracking",
+    "YOLOv8",
+    "ByteTrack",
+    "OpenCV",
+    "PyTorch",
+    "Streamlit",
+    "Traffic Analytics"
+    ],
+    category: "upcoming",
+    featured: false,
+  },
+  {
+    id: 4,
+    name: "Sermar Ingenieros website",
+    description: "Created a responsive and visually appealing website for Sermar Ingenieros, a civil engineering company, using modern web development technologies. The site features project showcases, service descriptions, and contact information.",
+    image: "",
+    tags: [],
+    github: "",
+    category: "upcoming",
+    featured: false,
+  },
 ];
 
 // Editorial project entry — magazine flow, no card chrome, hairline divider only.
